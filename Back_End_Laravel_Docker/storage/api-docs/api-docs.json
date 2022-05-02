@@ -1,0 +1,117 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Jumia API Documentation",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/public/countries": {
+            "get": {
+                "tags": [
+                    "Public"
+                ],
+                "description": "retrieve countries data",
+                "operationId": "4badb85970b16ff2b14c3f6630bf0822",
+                "responses": {
+                    "200": {
+                        "description": "success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "string",
+                                            "example": "[]"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/customers": {
+            "post": {
+                "tags": [
+                    "Customer"
+                ],
+                "summary": "Create Todo",
+                "operationId": "64635b9f6c673be5539be01c661b7df8",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "": {
+                                        "properties": {
+                                            "page": {
+                                                "type": "integer"
+                                            },
+                                            "country_code": {
+                                                "type": "integer"
+                                            },
+                                            "is_valid": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object",
+                                "example": {
+                                    "page": 1,
+                                    "contry_code": 212,
+                                    "is_valid": "true"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "data": {
+                                            "type": "string",
+                                            "example": "[]"
+                                        },
+                                        "current_page": {
+                                            "type": "number",
+                                            "example": 1
+                                        },
+                                        "last_page": {
+                                            "type": "number",
+                                            "example": 4
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "invalid",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "msg": {
+                                            "type": "string",
+                                            "example": "fail"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

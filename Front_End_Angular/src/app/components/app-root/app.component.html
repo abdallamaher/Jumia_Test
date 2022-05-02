@@ -1,0 +1,91 @@
+<div class="container">
+  <div>
+    <img
+      class="float-left"
+      src="../../assets/img/jumialogo.png"
+      alt="JUMIA"
+      width="100px;"
+    />
+    <h2 class="text-left">Phone numbers</h2>
+    <hr class="mb-4" />
+  </div>
+
+  <div class="row">
+    <form class="needs-validation" id="customer-form">
+      <div class="row">
+        <div class="col-md-4">
+          <label for="country">Country</label>
+          <select
+            class="form-control"
+            name="country"
+            id="country"
+            [(ngModel)]="selected_country"
+            (ngModelChange)="onOptionsSelected()"
+          >
+            <option
+              [value]="country.country_code"
+              *ngFor="let country of countries"
+            >
+              {{ country.country_name }}
+            </option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="country">Phone State</label>
+          <select
+            class="form-control"
+            name="phonestate"
+            id="phonestate"
+            [(ngModel)]="selected_status"
+            (ngModelChange)="onOptionsSelected()"
+          >
+            <option [value]="option.value" *ngFor="let option of validOptionList">
+              {{ option.name }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </form>
+
+    <div class="row" style="margin-top: 5%">
+      <table class="table table-hover" id="phone-table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Country</th>
+            <th>State</th>
+            <th>Country code</th>
+            <th>Phone num.</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let customer of customers">
+          <tr>
+            <td>{{ customer.country_name }}</td>
+            <td>{{ customer.status == "1" ? "OK" : "NOK" }}</td>
+            <td>{{ customer.country_code }}</td>
+            <td>{{ customer.phone | slice:6 }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="navigationButtons" class="col-md-2" style="padding-top: 2%">
+    <button
+      type="button"
+      class="btn btn-primary"
+      style="margin-right: 20px"
+      [disabled]="currentPage == 1"
+      (click)="getPaginatedCustomersList(-1)"
+    >
+      previous
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary"
+      [disabled]="currentPage == lastPage"
+      (click)="getPaginatedCustomersList(1)"
+    >
+      Next
+    </button>
+  </div>
+</div>

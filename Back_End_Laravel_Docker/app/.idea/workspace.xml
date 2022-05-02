@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b9de4e3-992c-4394-a30d-32ccbe575183" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="271zRvfYDKSQkLDMkRuAMayVd7M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Jumia\Jumia_Test\Back_End_Laravel\tests\Traits" />
+      <recent name="C:\Users\User\Desktop\Jumia\Jumia_Test\Back_End\database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.CountryTest.test_example">
+    <configuration name="CountryTest.test_example" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CountryTest" file="$PROJECT_DIR$/tests/Unit/CountryTest.php" method="test_example" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ExampleTest" file="$PROJECT_DIR$/tests/Unit/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.CountryTest.test_example" />
+        <item itemvalue="PHPUnit.ExampleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b9de4e3-992c-4394-a30d-32ccbe575183" name="Changes" comment="" />
+      <created>1648502389257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648502389257</updated>
+      <workItem from="1648502392701" duration="1147000" />
+      <workItem from="1648545643782" duration="1753000" />
+      <workItem from="1648553586698" duration="4525000" />
+      <workItem from="1648568290415" duration="3549000" />
+      <workItem from="1648573095262" duration="1221000" />
+      <workItem from="1648578731852" duration="961000" />
+      <workItem from="1648586480508" duration="10586000" />
+      <workItem from="1648659858872" duration="6924000" />
+      <workItem from="1648674371940" duration="1345000" />
+      <workItem from="1648677249478" duration="2925000" />
+      <workItem from="1648716095230" duration="2437000" />
+      <workItem from="1648719280547" duration="1615000" />
+      <workItem from="1648725818757" duration="2000" />
+      <workItem from="1648732713617" duration="23000" />
+      <workItem from="1648734887010" duration="3700000" />
+      <workItem from="1648746772505" duration="936000" />
+      <workItem from="1648749023428" duration="755000" />
+      <workItem from="1648849202340" duration="9447000" />
+      <workItem from="1648866410875" duration="1563000" />
+      <workItem from="1648868907312" duration="4676000" />
+      <workItem from="1648895910154" duration="367000" />
+      <workItem from="1648897374581" duration="4029000" />
+      <workItem from="1648902413803" duration="10182000" />
+      <workItem from="1648912810404" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
