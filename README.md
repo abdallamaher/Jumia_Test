@@ -1,15 +1,8 @@
-# How It Work
-
-<img src="./Application Diagram.png">
-
-# DATABASE Diagram
-<img src="./DATABASE Diagram.PNG">
-
 # Technologies and techniques
 
 - Angular
 - PHP Custom MVC
-- Laravel - Validation - FilterQuery -  Repository - Caching - Seeders - Testing
+- Laravel - Validation - FilterQuery -  RepositoryPattern - serviceRepositoryPattern - Caching - Seeders - Testing
 - Docker
 - Swagger Documentation
 
