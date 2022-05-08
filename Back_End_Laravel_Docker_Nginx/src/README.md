@@ -9,3 +9,7 @@
 ## first install and Run back-end
  1. install composer of project `composer install` 
  2. run `docker-compose up --build -d`
+
+
+# DATABASE Diagram
+<img src="./../../Application Running.PNG">
